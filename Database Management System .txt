@@ -1,0 +1,105 @@
+Database Management System : 
+
+DBMS : Database Management System : 
+Relational Database Management System : SQL : Oracle, Sql Server, Mysql, Postgres Sql , sql lite etc
+
+RDBMS : 
+A relational database management system (RDBMS) is a program used to create, update, and manage relational databases. Some of the most well-known RDBMSs include MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, and Oracle Database.
+
+DBMS : 
+What is a database management system? A database management system (DBMS) is system software for creating and managing databases. A DBMS makes it possible for end users to create, protect, read, update and delete data in a database.
+
+No SQL : Non Structrued Query Language : MongoDB, Cassendra etc
+
+
+SQL : Structured Query Language : 
+SQL stands for Structured Query Language. It is a standard programming language used to store, retrieve, and manipulate data in relational databases. 
+SQL is used to perform various operations on data in relational databases, such as: 
+Extracting data, Organizing data, Managing data, Manipulating data, Creating databases, Updating databases, Deleting databases. 
+SQL was developed by IBM in the early 1970s and is now an official standard recognized by the American National Standards Institute (ANSI) and the International Organization for Standardization (ISO). 
+
+DDL : Data Definition Language : create, alter, drop, truncate
+DML : Data Manipulation language : insert, update, delete , call, explain call, lock
+DCL : Data Control Language  : grant, revoke
+TCL : Transaction Control Language : Commit,savepoint, rollback, set transaction, set contraints
+DQL : Data Query Language : select - view
+
+Store PRocedure : 
+A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again. So if you have an SQL query that you write over and over again, save it as a stored procedure, and then just call it to execute it.
+
+
+Triggers : 
+A MySQL trigger is a database object that is associated with a table. It will be activated when a defined action is executed for the table. The trigger can be executed when you run one of the following MySQL statements on the table: INSERT, UPDATE and DELETE and it can be invoked before or after the event.
+
+
+DDL : create , alter, drop ,truncate
+
+show databases; - it will show all the built database 
+create database <database-name>; ---> it will create the database
+use <database-name>; --> use the database to perform operation : 
+create table users(column_name datatype,column_name datatype);
+
+Table - schema
+row - tuple- record
+column - field
+
+Data - raw facts - smallest entity of any information
+
+
+Data types : 
+Numeric Data Types - 
+Numeric Data Type Syntax
+Integer Types (Exact Value) - INTEGER, INT, SMALLINT, TINYINT, MEDIUMINT, BIGINT
+Fixed-Point Types (Exact Value) - DECIMAL, NUMERIC
+Floating-Point Types (Approximate Value) - FLOAT, DOUBLE
+Bit-Value Type - BIT
+Numeric Type Attributes
+Out-of-Range and Overflow Handling
+
+Date and Time Data Types : 
+Date and Time Data Type Syntax
+The DATE, DATETIME, and TIMESTAMP Types
+The TIME Type
+The YEAR Type
+Automatic Initialization and Updating for TIMESTAMP and DATETIME
+Fractional Seconds in Time Values
+What Calendar Is Used By MySQL?
+Conversion Between Date and Time Types
+2-Digit Years in Dates
+
+String Data Types : 
+String Data Type Syntax
+The CHAR and VARCHAR Types
+The BINARY and VARBINARY Types
+The BLOB and TEXT Types
+The ENUM Type
+The SET Type
+
+
+Spatial Data Types : 
+
+
+The JSON Data Type : 
+
+Data Type Default Values : 
+
+Data Type Storage Requirements : 
+
+Choosing the Right Type for a Column : 
+
+Using Data Types from Other Database Engines
+
+
+Contraints : 
+NOT NULL - null value not be inserted
+CHECK - condition check
+DEFAULT - default value
+PRIMARY KEY - one table - one column
+AUTO_INCREMENT
+UNIQUE - one table  - multiple column
+INDEX
+ENUM
+FOREIGN KEY - parent  + child
+
+indexing in mysql : 
+Indexes are used to find rows with specific column values quickly. Without an index, MySQL must begin with the first row and then read through the entire table to find the relevant rows. The larger the table, the more this costs.
